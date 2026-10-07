@@ -40,6 +40,17 @@ The analysis examined:
 - Working-day versus non-working-day demand
 - Average demand across weather categories
 - The relationship between temperature and rental demand
+### Bike Rental Demand by Hour
+
+![Average Bike Rental Demand by Hour](figures/hourly_demand.png)
+
+### Working Day vs Non-Working Day
+
+![Working Day vs Non-Working Day Demand](figures/workingday_demand.png)
+
+### Temperature and Bike Rental Demand
+
+![Temperature vs Bike Rentals](figures/temperature_demand.png)
 
 Key findings included:
 
@@ -67,6 +78,17 @@ The models were evaluated using:
 - R²
 
 A chronological train-test split was used, with the first 80% of observations used for training and the later 20% used for testing.
+### Random Forest Feature Importance
+
+![Random Forest Feature Importance](figures/feature_importance.png)
+
+### Actual vs Predicted Rental Demand
+
+![Actual vs Predicted Rental Demand](figures/actual_vs_predicted.png)
+
+### Residual Plot
+
+![Residual Plot](figures/residual_plot.png)
 
 ## Results
 
